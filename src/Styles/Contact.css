@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.contact-site{
+    position: absolute;
+    top: 5rem;
+    
+}
+.contact-deets{
+    padding: 10px 4px;
+    color: white;
+    position: relative;
+    left: -35rem;
+    top: 6rem;
+    background  :grey;
+    
+}
+.deets{
+    color: black;
+    font-size: 18px;
+}
+.contact-deets h4{
+    color: black;
+    font-size: 25px;
+}
+.contact-deets h5{
+    color: black;
+    font-size: 15px;
+    padding: 2px;
+}
+.deets{
+    display: inline-block;
+    text-align: justify;
+}
+.contact-inputs{
+    position: relative;
+    left: 2rem;
+    top: -15rem;
+    display: flex;
+    flex-direction: column;
+    padding: 4px 4px;
+    background: rgb(134, 122, 122);
+    padding: 4px 10px;
+}
+.contact-inputs label{
+    text-align: justify;
+    font-size: 15px;
+    color:#283747 ;
+}
+.contact-inputs input{
+    width: 300px;
+    height: 1rem;
+    padding: 4px 15px;
+    background: white;
+    color: black;
+}
+.contact-inputs textarea{
+    background:white;
+    color: black;
+    padding: 4px 10px;
+}
+.sub{
+    height: 30px;
+    width: 200px;
+    margin: 8px 3rem;
+    background: #283747;
+    border-radius: 10px;
+}
+.sub:hover{
+    background: rgba(29, 158, 20, 0.772);
+}
+@media (max-width:320px){
+    .contact-site{
+        position: relative;
+        top: -3rem;
+        left: 2rem;
+    }
+    .contact-deets{
+        position: relative;
+        top: 5rem;
+        left: 2rem;
+    }
+    .contact-inputs{
+        position: relative;
+        top: 8rem;
+    }
+}
+@media (max-width:1024px){
+    .contact-inputs{
+        position: relative;
+        width: 400px;
+    }
+    .contact-deets{
+        position: relative;
+        left: -29rem;
+        width: 400px;
+    }
+}

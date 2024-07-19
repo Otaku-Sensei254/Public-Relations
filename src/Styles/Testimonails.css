@@ -1,0 +1,151 @@
+.our-teams , .cont , .testimonies{
+    height:100vh;
+}
+.caption{
+    position: absolute;
+    top: 12rem;
+    left: 2rem;
+    color:#283747;
+    width: 600px;
+    text-align: justify;
+    font-size: 18px;
+}
+.Afro{
+    position: relative;
+    width: 600px;
+    height: 350px;
+    left: 20rem;
+    top: 10rem;
+    border-radius: 30px;
+}
+.Afro:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.5s ease-in-out;
+}
+.tm{
+    font-size: 30px;
+    color:#283747;
+}
+.tm-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+    right: 15rem;
+    
+}
+.tm-card{
+    left: 2rem;
+    background: rgba(98, 90, 76, 0.313);
+    padding: 30px 15px ;
+    width: 300px;
+    border: white;
+}
+.tm-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.5s ease-in-out;
+}
+.tm-card img{
+    width: 300px;
+}
+.tm-card p{
+    color: #283747;
+    font-weight: bold;
+}
+.tm-card h5{
+    color: #283747;
+}
+.testimonies{
+    background: #283048;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 2rem 4rem;
+}
+.testimony{
+    color:white;
+    font-size: 40px;
+}
+.testimonies .baby{
+    background: white;
+    margin: 0px 8rem;
+    padding: 10px 20px;
+    color: #283747;
+    font-size: 18px;
+    width: 800px;
+    text-align: justify;
+    gap: 2rem;
+}
+.webdev{
+    position: relative;
+    top: 3rem;
+    background: white;
+    margin: 0px 8rem;
+    padding: 10px 20px;
+    color: #283747;
+    font-size: 18px;
+    width: 600px;
+    text-align: justify;
+    
+}
+@media(max-width:320px){
+    .testimonial-content text{
+        font-size: 28px;
+    }
+    .Afro{
+        position: relative;
+        top: 5rem;
+        width: 500px;
+    }
+    .our-teams h2{
+        font-size: 35px;
+    }
+    .tm-card p{
+        font-size: 25px;
+    }
+    .tm-card h5{
+        font-size: 25px;
+    }
+    .tm-cards{
+        position: relative;
+        display: flex;
+        top: 2rem;
+        left: 2rem;
+        gap: 3rem;
+        padding: 2rem 4rem;
+    }
+    .testimonies{
+        position: relative;
+        top: 35rem;
+        left: 0rem;
+    }
+}
+@media (max-width:375px){
+    .testimonial-content .caption{
+        position: relative;
+        top: 4rem;
+        font-size: 30px;
+        font-weight: 600;
+        width: 500px;
+    }
+    .Afro{
+        position: relative;
+        top: 5rem;
+        left: 2rem;
+    }
+    .our-teams{
+        position: relative;
+        top: 8rem;
+    }
+    .testimonies{
+        position: relative;
+        top: 13rem;
+    }
+}
+@media (max-width:1024px){
+    .Afro{
+        position: relative;
+        top: 18rem;
+        left: 7rem;
+        width: 500px;
+    }
+}

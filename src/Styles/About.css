@@ -1,0 +1,331 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.Draw-them{
+    height: 20rem;
+}
+
+
+.About-header{
+    position: relative;
+    top: 7rem;
+    left: 0;
+    text-decoration: underline rgb(29, 102, 154);
+}
+.Sell{
+    position: relative;
+    top: 5rem;
+    font-size: 35px;
+    color:#283747 ;
+}
+.Sell-txt{
+    position: relative;
+    top: 3rem;
+    color:#283747 ;
+    font-size: 19px;
+    width:100px;
+    padding: 2rem;
+} 
+.serve{
+    font-size: 30px;
+    color:#16222A;
+    position: relative;
+    top: -2rem;
+}
+.teams{
+    height: 50rem;
+    position: relative;
+    
+}
+.team-cards{
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    padding: 0.5rem;
+}
+.card{
+    width: 300px;
+    background-color: rgba(129, 134, 137, 0.1);
+    
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.5s ease-in;
+    background: #00d2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-decoration: white;
+}
+.card:hover h2, .card:hover text, .card:hover .card-icon{
+    color: white;
+}
+.card h2{
+    font-size:20px;
+    color:black;
+}
+.card text{
+    font-size: 14px;
+    margin: 0;
+    width: 300px;
+    color: black;
+    text-align: right;
+}
+.card .card-icon{
+    position: relative;
+    right: 2rem;
+    bottom: 2rem;
+    margin: 3px;
+    padding: 0;
+    font-size: 30px;
+    color: rgb(21, 90, 117);
+}
+.Contact-us{
+    position: relative;
+    top: -10rem;
+    left: 20rem;
+    background-color: rgb(210, 201, 176);
+    width:500px;
+    border-radius: 30px;
+}
+.Contact-us h3{
+    color: white;
+    font-size: 30px;
+    
+}
+.call-now{
+    position: relative;
+    left: 0;
+    top: 0;
+    background: #283747;
+    font-size: 20px;
+    padding: 4px 10px;
+    border-radius: 10px;
+    margin: 6px 10px;
+}
+.call-now:hover{
+    background: lime;
+    color: black;
+}
+
+
+
+
+footer{
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0, 1rem;
+    height: 29rem;
+    color: white;
+    position: relative;
+    bottom: 0;
+}
+footer p{
+    margin: 2px, 2px;
+    color: white;
+    position: relative;
+    top:15rem;
+    right: 15rem;
+}
+footer .ytb{
+    color: red;
+    font-size: 35px;
+    position: relative;
+    left: 35rem;
+    top: 5rem;
+    cursor: pointer;
+}
+footer .insta{
+    color:  rgba(253,29,100);
+    font-size: 30px;
+    position: relative;
+    top: 5rem;
+    left: 30rem;
+    cursor: pointer;
+}
+footer .twitter{
+    color: #00d2ff;
+    font-size: 35px;
+    position: relative;
+    top:5rem;
+    left: 25rem;
+    cursor: pointer;
+}
+.footer-icons{
+    position: relative;
+    top: 6rem;
+}
+footer h4{
+    color: white;
+    bottom: 1rem;
+    right: 32rem;
+    position: relative;
+    font-size: 20px;
+}
+footer .projects li{
+    position: relative;
+    bottom: 2rem;
+    right: 32rem;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+}
+footer li{
+    list-style: none;
+}
+@media (max-width:320px){
+    .About-header{
+        position: relative;
+        top: -1rem;
+        left: 6rem;
+        font-size: 50px;
+    }
+    .Sell{
+        position: relative;
+        top: -2rem;
+        left: 6rem;
+        font-size: 40px;
+    }
+    .Sell-txt{
+        position: relative;
+        top: -4rem;
+        left: 6rem;
+        font-size: 20px;
+        font-weight:600;
+    }
+    .serve{
+        position: relative;
+        font-size: 35px;
+        left: 7rem;
+    }
+
+    .card{
+        position: relative;
+        width: 250px;
+    }
+    .team-cards{
+        position: relative;
+        left: 3rem;
+        gap: 2rem 14rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(50px, 0.5fr));
+    }
+    .teams{
+        position: relative;
+        top: -4rem;
+    }
+    .Contact-us{
+        position: relative;
+        top: 25rem;
+        left: 10rem;
+    }
+    .Contact-us h3{
+        font-size: 40px;
+    }
+    .call-now{
+        font-size: 40px;
+    }
+    footer{
+        position: relative;
+        top: 30rem;
+        left: 7rem;
+        height: 15rem;
+        width: 600px;
+    }
+    .footer-icons{
+        position: absolute;
+
+    }
+    footer .projects{
+        position: relative;
+        left: 2rem;
+        font-size: 12px;
+        top: -2rem;
+    }
+}
+@media (max-width:375px){
+    .About-header{
+        font-size: 45px;
+        position: relative;
+        left: 10rem;
+    }
+    .Sell{
+        font-size: 39px;
+        position: relative;
+        left: 10rem;
+    }
+    .Sell-txt{
+        position: relative;
+        left: 10rem;
+        font-size: 25px;
+    }
+    .serve{
+        position: relative;
+        top: 5rem;
+        left: 10rem;
+    }
+    .card{
+        width: 300px;
+    }
+    .team-cards{
+        position: relative;
+        top: 3rem;
+        gap: 3rem 17rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+    .card text{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    footer{
+        position: relative;
+        top: 33rem;
+        left: 3rem;
+        width: 40rem;
+    } 
+    .footer-icons{
+        position: absolute;
+        left: -8rem;
+        top: 20rem;
+    }
+    .Contact-us{
+        position: relative;
+        top: 28rem;
+        left: 10rem;
+    }
+    .Contact-us h3{
+        font-size: 40px;
+    }
+    .call-now{
+        font-size: 30px;
+    }
+}
+@media (max-width:1024px){
+    .team-cards{
+        position: relative;
+        top: 3rem;
+        gap: 2rem 8.8rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    .card{
+        width: 250px;
+    }
+    .Contact-us{
+        position: relative;
+        top: -3rem;
+    }
+    .footer-icons{
+        position: absolute;
+        top: 15rem;
+        left: 25rem;
+    }
+}
