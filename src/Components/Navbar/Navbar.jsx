@@ -11,10 +11,10 @@ function Navbar() {
            <Link to="/"><img  className="nav-logo"src={Wrld} alt="" /></Link>
             <div className="nav-links">
                 <ul>                
-                    <a href="/">Home</a>
-                    <a href="about">About</a>
-                    <a href="testimonials">Testimonials</a>
-                    <a href="contact">Contact us</a>
+                    <Link to="/">Home</Link>
+                    <Link to="about">About</Link>
+                    <Link to="testimonials">Testimonials</Link>
+                    <Link to="contact">Contact us</Link>
                     
 
                 </ul>
